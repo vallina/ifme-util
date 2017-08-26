@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" thread-count="5">
+    <test name="test1">
+        <classes>
+            <class name="com.huluuu.test.ifTest">
+                <methods>
+                    <include name = "login" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
